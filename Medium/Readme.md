@@ -1,4 +1,4 @@
-In this section, you’ll find "medium" difficulty LeetCode problems that challenge you to apply and expand upon fundamental concepts. 
+In this section, you’ll find "Medium" difficulty LeetCode problems that challenge you to apply and expand upon fundamental concepts. 
 
 These problems often involve more complex algorithms and data structures, requiring deeper problem-solving strategies and intermediate coding skills. 
 
