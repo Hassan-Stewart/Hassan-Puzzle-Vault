@@ -1,6 +1,6 @@
 This repository consists of easy examples of leet code problems.
 
-In this section, you'll find a collection of "easy" LeetCode problems that serve as an introduction to fundamental algorithmic concepts and data structures. 
+In this section, you'll find a collection of "Easy" LeetCode problems that serve as an introduction to fundamental algorithmic concepts and data structures. 
 
 These problems are designed to build your problem-solving skills and reinforce basic programming principles. 
 
