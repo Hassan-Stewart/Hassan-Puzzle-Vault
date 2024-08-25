@@ -16,8 +16,6 @@ In this repository, you'll find problems categorized by difficulty (easy, medium
 
 1. **Navigate the Repository**: Explore the `easy`, `medium`, and `hard` folders to find problems categorized by difficulty. Within each folder, problems are organized by topic.
 2. **Understand the Problem**: Open the `README.md` file in each problem's folder to read the problem statement, examples, and detailed explanation.
-3. **Run the Solution**: Execute the Python code in `solution.py` to test and understand the implementation.
-4. **Test Cases**: Check `tests.py` for additional test cases that validate the solution.
 
 ## Contributing
 
