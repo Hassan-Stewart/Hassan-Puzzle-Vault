@@ -1,0 +1,21 @@
+from typing import List
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # Create a hashmap to store numbers and their indices
+        numondoor = {}
+        
+        # Iterate through the list
+        for i, num in enumerate(nums):
+            # Calculate the complement
+            bignum = target - num
+            
+            # Check if the complement exists in the hashmap
+            if bignum in numondoor:
+                return [numondoor[bignum], i]
+            
+            # Add the number and its index to the hashmap
+            numondoor[num] = i
+        
+        # Return an empty list if no solution is found
+        return []
