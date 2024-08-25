@@ -19,3 +19,5 @@ class Solution:
         
         # Return an empty list if no solution is found
         return []
+
+#The above example is the code representation of the quest previously mentioned
