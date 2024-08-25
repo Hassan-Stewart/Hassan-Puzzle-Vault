@@ -1,3 +1,6 @@
+# This is a code implementation of a two-sum problem.
+# As mentioned in the explanation this is a quest to find the secret of the universe
+# Behind a door lies the secret, but you must first unlock it
 from typing import List
 
 class Solution:
@@ -10,14 +13,13 @@ class Solution:
             # Calculate the complement
             bignum = target - num
             
-            # Check if the complement exists in the hashmap
+            # Check if the bignum exists
+            # If it doesn't exist return Accsess Granted
             if bignum in numondoor:
                 return [numondoor[bignum], i]
             
             # Add the number and its index to the hashmap
             numondoor[num] = i
         
-        # Return an empty list if no solution is found
+        # Return Access Denied if nothing is found
         return []
-
-#The above example is the code representation of the quest previously mentioned

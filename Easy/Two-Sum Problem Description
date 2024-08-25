@@ -1,10 +1,6 @@
-#You are on a quest to find a secret power that will unlock the secret to the universe.
+#Scenario:
+#You are on a quest to uncover the ultimate secret of the universe. Just as you get close to your goal, you encounter a #mysterious door. Above the door, a cryptic number—19—is engraved. The door itself bears four numbers: [3, 4, 15, 18]. #Your challenge is to use these numbers to unlock the door and reveal the secret within.
 
-#You are very close to finding out the secret but you discovered a door. 
-
-#Behind this door lies the secret that you are looking for.
-
-#Above the door you see the the number 19
-
-#On this door you can see 4 numbers: [3, 4, 15, 18]. 
-
+#Problem Statement (Two Sum):
+#Given an array of integers nums and an integer target, return the indices of the two numbers that add up to the target. #You may assume that each input would have exactly one solution, and you may not use the same element twice. 
+#You can return the answer in any order.
