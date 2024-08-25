@@ -1,4 +1,4 @@
-This section features "hard" difficulty LeetCode problems that push the boundaries of your problem-solving capabilities. 
+This section features "Hard" difficulty LeetCode problems that push the boundaries of your problem-solving capabilities. 
 
 These challenges typically require advanced algorithms, sophisticated data structures, and creative approaches to solve complex issues. 
 
