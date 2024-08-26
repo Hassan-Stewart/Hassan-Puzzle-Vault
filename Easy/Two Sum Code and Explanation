@@ -1,8 +1,8 @@
 # This is a code implementation of a two-sum problem.
 # As mentioned in the explanation this is a quest to find the secret of the universe
 # Behind a door lies the secret, but you must first unlock it
-from typing import List
 
+from typing import List
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # Create a hashmap to store numbers and their indices
@@ -23,3 +23,7 @@ class Solution:
         
         # Return Access Denied if nothing is found
         return []
+
+#The time and space complexity of this problem would be O(n) or linear time.
+#This is the case, because you are inputing a for loop for the hashmap. 
+#By going through the for loop it takes linear time, because you are working with a list/array of numbers
