@@ -1,4 +1,4 @@
-# Hassan's Puzzle Vault
+# Hassan Puzzle Vault
 
 Welcome to the Python Puzzle Hub! This repository features a diverse collection of data structure and algorithm problems, presented with unique scenarios and detailed explanations.
 
