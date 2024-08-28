@@ -1,0 +1,19 @@
+##Scenario:
+#You are playing a game on your personal computer
+
+#You are on a level in the game that requires you to solve a riddle
+
+#On this level the riddle you need to solve is that you need to create a machine that can read symbols
+
+#The symbols you are given are the following: symbol_list = {'>': '<', '\': '/', ')': '('}
+
+#These symbols are included in a stack
+
+##Problem Statement (Valid Parenthesis):
+#Given a string s containing just the characters '>', '<', '\', '/', ')' and '(', determine if the input string is valid.
+
+#An input string is valid if:
+
+#Open symbols must be closed by the same type of brackets.
+#Open symbols must be closed in the correct order.
+#Every closing symbol has a corresponding open bracket of the same type.
