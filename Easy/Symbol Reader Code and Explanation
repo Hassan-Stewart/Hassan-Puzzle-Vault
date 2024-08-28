@@ -7,7 +7,7 @@ class Solution:
         #Create stack
         stack = []
         #Create hashmap/dictionary
-        SymbolsForReader = {')': '(', '}': '{', ']': '['}
+        SymbolsForReader = {'>': '<', '}': '{', ']': '['}
         #Create loop to iterate through hashmap/dictionary
         for char in s:
             #Check if character is in hashmap/dictionary
