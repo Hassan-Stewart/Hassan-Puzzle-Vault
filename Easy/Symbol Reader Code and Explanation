@@ -1,6 +1,6 @@
 # This is a code implementation of a valid parenthesis problem.
 # As mentioned in the explanation this is a symbol that you have created in the video game that you are playing
-#Here is your list of symbols: '>', '<', '\', '/', ')' and '(',
+#Here is your list of symbols: '>', '<', '/', '\', ')' and '(',
 
 class Solution:
     def isValid(self, s: str) -> bool:  
@@ -24,3 +24,25 @@ class Solution:
                 #Otherwise put the symbol at end of stack
                 stack.append(char)
         else: return len(stack) == 0
+
+
+## Symbol Reader explanation
+
+#Time and Space Complexity:
+
+#The time and space complexity of the Symbol Reader is 𝑂(𝑛) or linear time complexity.
+
+#Time Complexity: 
+#The time complexity of the symbol reader is in O(n) notation. The reason it is in this notation, is because it has a for loop in the code.
+#For loops traverse through a sequence of values whether numbers, symbols, etc. 
+#It traverses through the list of symbols only once.
+#In addition since you are dealing with a stack, your pop you did in the stack is in O(1) or conatant time which is very efficient.
+#O(1) because there is no requirement to shift elements. 
+#Therefore, the overall time complexity is O(n).
+
+
+#Space Complexity: 
+#The space complexity is also linear, O(n), but this is due to the stack used to store the opening symbols.
+#In the worst case, if the string contains only opening symbols (like <, (, or \), the stack will hold all n symbols.
+#Even though individual operations (push and pop) are O(1), the maximum size the stack can grow to is proportional to the input size, hence O(n).
+
