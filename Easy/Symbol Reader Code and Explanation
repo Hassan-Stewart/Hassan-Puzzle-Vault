@@ -1,0 +1,26 @@
+# This is a code implementation of a valid parenthesis problem.
+# As mentioned in the explanation this is a symbol that you have created in the video game that you are playing
+#Here is your list of symbols: '>', '<', '\', '/', ')' and '(',
+
+class Solution:
+    def isValid(self, s: str) -> bool:  
+        #Create stack
+        stack = []
+        #Create hashmap/dictionary
+        SymbolsForReader = {')': '(', '}': '{', ']': '['}
+        #Create loop to iterate through hashmap/dictionary
+        for char in s:
+            #Check if character is in hashmap/dictionary
+            if char in SymbolsForReader:
+                #If angle brackets/slashes/parenthesis match
+                if stack and stack[-1] == SymbolsForReader[char]:
+                    #Then pop them from stack
+                    stack.pop()
+                #If angle brackets/slashes/parenthesis aren't in hashmap/dictionary
+                else:
+                    #Return False
+                    return False        
+            else:
+                #Otherwise put the symbol at end of stack
+                stack.append(char)
+        else: return len(stack) == 0
