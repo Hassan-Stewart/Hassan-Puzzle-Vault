@@ -23,6 +23,6 @@ This repository is licensed under the [Creative Commons Zero v1.0 Universal](htt
 
 ## Contact
 
-For any questions or feedback, please reach out via [your contact information].
+For any questions or feedback, please reach out via hassan24stewart@gmail.com.
 
 Happy coding!
