@@ -1,0 +1,11 @@
+##Scenario:
+#You are working at your retail warehouse and have an issue with your inventory
+#You need to combine 2 lists of items
+#List 1: [1 television, 2 playstations, 3 iphones, 4 speakers]
+#List 2: [5 controllers, 6 tv remotes, 7 headsets, 8 gaming chairs, 9 computers]
+
+##Problem Statement (Merged Two Sorted Lists):
+#You are given the heads of these two sorted linked lists list1 and list2.
+#Merge these two lists into one sorted list. 
+#The list should be made by splicing together the nodes of the first two lists.
+#Return the head of the merged linked list.
