@@ -9,12 +9,13 @@ class Solution:
         dummy = ListNode()
         tail = dummy
 
-        #create conditions for l1< l2 or l2 < l1
+        #Create conditions for l1< l2 or l2 < l1
         while l1 and l2:
+        #If list 1 item is less then go with the item in list 1
             if l1.val < l2.val:
                 tail.next = l1
                 l1 = l1.next
-
+        #If list 2 item is less then go with the item in list 2
             else:
                 tail.next = l2
                 l2 = l2.next
@@ -27,3 +28,19 @@ class Solution:
         elif l2:
             tail.next = l2
         return dummy.next
+
+## Retail Warehouse Merged List explanation
+
+#Time Complexity:
+#The function iterates through both linked lists l1 and l2 until one of them is fully traversed.
+#In each iteration, one element from either l1 or l2 is added to the merged list, so the loop runs at most 
+#O(min(n,m)) times, where n and 𝑚 are the lengths of l1 and l2, respectively.
+#After the loop, any remaining elements from the longer list (if any) are appended to the merged list, but this step only requires O(1) additional operations.
+#Therefore, the time complexity is O (n+m), where 𝑛 and m are the lengths of l1 and l2.
+
+#Space Complexity:
+#The space complexity is determined by the space used by the algorithm, excluding the input and output.
+#The function uses a few pointers (dummy, tail, l1, and l2), all of which require O(1) space.
+#The function modifies the existing linked lists and does not use any additional data structures that grow with the size of the input.
+#Therefore, the space complexity is O(1).
+
