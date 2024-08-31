@@ -4,11 +4,11 @@
 
 class Solution:
     def isValid(self, s: str) -> bool:  
-        #Create stack
+        # Create stack
         stack = []
         #Create hashmap/dictionary
         SymbolsForReader = {'>': '<', '}': '{', ']': '['}
-        #Create loop to iterate through hashmap/dictionary
+        # Create loop to iterate through hashmap/dictionary
         for char in s:
             #Check if character is in hashmap/dictionary
             if char in SymbolsForReader:
@@ -16,7 +16,7 @@ class Solution:
                 if stack and stack[-1] == SymbolsForReader[char]:
                     #Then pop them from stack
                     stack.pop()
-                #If angle brackets/slashes/parenthesis aren't in hashmap/dictionary
+                # If angle brackets/slashes/parenthesis aren't in hashmap/dictionary
                 else:
                     #Return False
                     return False        
