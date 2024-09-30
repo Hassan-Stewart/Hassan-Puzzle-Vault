@@ -1,6 +1,6 @@
 # This is a code implementation of a valid parenthesis problem.
 # As mentioned in the explanation this is a symbol that you have created in the video game that you are playing
-#Here is your list of symbols: '>', '<', '/', '\', ')' and '(',
+#Here is your list of symbols: '>', '<', '/', '\', ')' and '('
 
 class Solution:
     def isValid(self, s: str) -> bool:  
