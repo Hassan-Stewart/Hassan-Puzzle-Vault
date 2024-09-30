@@ -1,7 +1,7 @@
 ##Scenario:
 #You have a list of clothes in your inventory
 #The clothes that are in this list are a hoodie, a pair of pants, a hat, a pair of shoes, a pair of socks and a shirt
-#In the order above here are the cost of these items: [$50, $25, $15, $160, $6, $30]
+
 
 ##Problem Statement (Best time to buy and sell clothes):
 #
